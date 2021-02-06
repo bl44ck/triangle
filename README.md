@@ -4,6 +4,6 @@ Welcome to our Project triangle, where you can input three float values for the 
 
 - Valid Triangle
 - Angle *(acute, obtuse or rectangular triangle)*
-- Type of Triangle *(equ., iso. or odi. triangle)*
+- Type of Triangle *(equilateral, right or isosceles triangle)*
 
 Please see attached LICENSE file for license details.
