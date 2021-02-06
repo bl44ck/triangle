@@ -1,4 +1,4 @@
-
+#code by Erion
 
 a = int(input ("Bitte seite a eingeben:"))
 b = int(input ("Bitte seite b eingeben:"))
@@ -11,5 +11,3 @@ if (a + b <= c) or (b + c <= a) or (c + a <= b):
 
 else:
     True
-
-
