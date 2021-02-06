@@ -4,9 +4,9 @@ from triangleType import triangleType
 
 print("Welcome to our Triangle calculator, please enter sides a,b and c, e will exit the program")
 
-a = input("Enter side a:")
-b = input("Enter side b:")
-c = input("Enter side c:")
+a = int(input("Enter side a:"))
+b = int(input("Enter side b:"))
+c = int(input("Enter side c:"))
 
 if a == "e":
     exit

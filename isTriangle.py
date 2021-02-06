@@ -5,7 +5,7 @@
 #c = int(input ("Bitte seite c eingeben:"))
 
 def isTriangle(a,b,c):
-    if (a + b <= c) or (b + c <= a) or (c + a <= b):
-        False
+    if (a + b > c) or (b + c > a) or (c + a > b):
+        return True
     else:
-        True
+        return False
