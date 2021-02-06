@@ -16,7 +16,7 @@ def angle(a, b, c):
         c int -- side c
 
     Returns:
-        float -- angle γ
+        str - angle feature
 
     '''
     global angle_c
@@ -27,4 +27,11 @@ def angle(a, b, c):
     # into degrees
     angle_c = math.degrees(arccos_c)
 
-    return angle_c
+    if winkel_c == 90:
+        return riga
+
+    elif winkel_c < 90:
+        return acua
+
+    else:
+        return obta
