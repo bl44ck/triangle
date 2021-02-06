@@ -1,3 +1,7 @@
+from angle import angle
+from isTriangle import isTriangle
+from triangleType import triangleType
+
 print("Welcome to our Triangle calculator, please enter sides a,b and c, e will exit the program")
 
 a = input("Enter side a:")
@@ -7,7 +11,7 @@ c = input("Enter side c:")
 if a == "e":
     exit
 else:
-    break
+    True
 
 if isTriangle(a,b,c) == True:
     print("This is a valid triangle,")
