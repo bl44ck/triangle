@@ -6,8 +6,6 @@ import numpy
 def angle(a, b, c):
     ''' Angle calculation with cosine-theorem using the three sides of a triangle.
 
-    α = arccos( (b² + c² - a²) / 2bc )
-    β = arccos( (a² + c² - b²) / 2ac )
     γ = arccos( (a² + b² - c²) / 2ab )
 
     Quelle: https://rechneronline.de/pi/dreieck.php
@@ -18,7 +16,7 @@ def angle(a, b, c):
         c int -- side c
 
     Returns:
-        float, float, float -- Angles α, β, γ
+        float -- angle γ
 
     '''
     global angle_c
