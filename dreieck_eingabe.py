@@ -10,6 +10,6 @@ if (a + b <= c) or (b + c <= a) or (c + a <= b):
     print("Eingabe nich möglich")
 
 else:
-    print("Eingabe ok")
+    True
 
 
