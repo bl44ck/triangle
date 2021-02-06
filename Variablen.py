@@ -1,6 +1,6 @@
 # Variablen
-gueltig = False
-winkel_c = 0
-winkel = ('rechtwinkliges', 'spitzwinkliges', 'stumpfwinkliges')
-seiten = ('gleichseitiges', 'ungleichseitiges', 'gleichschenkliges')
-ausgabe = []
+valid = False
+angle_c = 0
+angles = ('rechtwinkliges', 'spitzwinkliges', 'stumpfwinkliges')
+sides = ('gleichseitiges', 'ungleichseitiges', 'gleichschenkliges')
+output = []
