@@ -7,3 +7,6 @@
 
 def triangleType(a,b,c):
     
+if (a=b=c)
+    return (equilateral)
+elif
