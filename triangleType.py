@@ -9,5 +9,7 @@ def triangleType(a,b,c):
     
 if (a=b=c)
     return ("equ")
-        elif (a=b) or (a=c) or (b=c)
-            return ("iso")
+elif (a=b) or (a=c) or (b=c)
+    return ("iso")
+else
+    return ("unequ"
