@@ -21,13 +21,13 @@ else:
 if angle(a,b,c) == 90:
     print("its rectangular")
 elif angle(a,b,c) > 90:
-    print("its acute")
+    print("its obtuse")
 else:
-    print("its obstuse")
+    print("its acute")
 
 if triangleType(a,b,c) == "equ":
     print("and equilateral.")
-elif triangleType(a,b,c) == "rgt":
-    print("and right angeled.")
+elif triangleType(a,b,c) == "unequ":
+    print("and unequal sided.")
 elif triangleType(a,b,c) == "iso":
     print("and isosceled.")
