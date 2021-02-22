@@ -7,7 +7,7 @@ print("Welcome to our Triangle calculator, please enter sides a,b and c, e will 
 while True:
 
     a = input("Enter side a:")
-    if a.lower == e:
+    if a.lower == 'e':
         break
     b = input("Enter side b:")
     c = input("Enter side c:")
