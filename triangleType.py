@@ -6,9 +6,9 @@
 
 def triangleType(a,b,c):
     
-if (a=b=c)
-    return ("equ")
-elif (a=b) or (a=c) or (b=c)
-    return ("iso")
+if a == b and b == c:
+    return 'equ'
+elif a == b or a == c or b ==c:
+    return 'iso'
 else
-    return ("unequ")
+    return 'unequ'
