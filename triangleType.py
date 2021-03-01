@@ -1,10 +1,19 @@
-#Triangletype-definition by Oliver
-
+# Function to categorize the triangle
 def triangleType(a,b,c):
+    """Categorize tree sides of a triangle into equilateral, unequal sided or isosceled.
+
+    Args:
+        a; int; Side a of the Triangle
+        b; int; Side b of the Triangle
+        c; int; Side c of the Triangle
+
+    Returns:
+        str; String of the category
+    """
 
     if a == b and b == c:
-        return 0
+        return "equilateral"
     elif a == b or a == c or b ==c:
-        return 1
+        return "unequal sided"
     else:
-        return 2
+        return "isosceled"
