@@ -1,7 +1,7 @@
 #code by Erion
 
 def isTriangle(a,b,c):
-    if (a + b > c) or (b + c > a) or (c + a > b):
+    if (a + b > c) and (b + c > a) and (c + a > b):
         return True
     else:
         return False
