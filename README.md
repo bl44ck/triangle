@@ -8,4 +8,7 @@ Welcome to our Project triangle, where you can input three float values for the 
 
 Note: Only works with Integers!
 
+German Version 1.0 : https://github.com/bl44ck/triangle/releases/tag/v1.0-ger
+English Version 1.0: https://github.com/bl44ck/triangle/releases/tag/v1.0-en
+
 Please see attached LICENSE file for license details.
