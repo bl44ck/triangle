@@ -1,11 +1,11 @@
 # triangle
 
-Welcome to our Project triangle, where you can input three float values for the sides of a triangle. You will be rewarded with three outputs:
+Willkommen zu unserem Dreiecks-Projekt. Du kannst drei Seite eingeben. Das Programm gibt folgende Ausgaben:
 
-- Valid Triangle
-- Angle *(acute, obtuse or rectangular triangle)*
-- Type of Triangle *(equilateral, right or isosceles triangle)*
+- Ist das Dreieck gültig
+- Winkel *(spitz-, stumpf oder rechtwinklig)*
+- Dreiecks-Typ *(un-, gleichseitig oder gleichschenklig )*
 
-Note: Only works with Integers!
+Beachte : Funktioniert nur mit Integer.
 
-Please see attached LICENSE file for license details.
+Bitte lies die angehängte LICENSE Datei für Lizenz-Details.
