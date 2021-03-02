@@ -31,9 +31,9 @@
 # Funktionen importieren, auch aus anderen Dateien.
 from Gültig import gueltig_dr
 from Winkel import winkel_gamma
-from Seitenauswertung import seiten_auswertung
-import time
-import random
+from Seitenauswertung import seiten_auswertung as seau
+from time import sleep
+from random import randint
 
 # Variabel, unveränderbare Listen (Tupel)
 # Dient der Auswertung des Winkel.
@@ -112,7 +112,7 @@ while True:
 
         # Seitenverhältnis wird verglichen.
         # Rückgabe eines Strings.
-        seiten_vergleichen = seiten_auswertung(a, b, c)
+        seiten_vergleichen = seau(a, b, c)
 
         # Ausgabe mittels Satzbausteinen,dem Strings aus der Liste Ausgabe
         # und dem entsprechenden Eintrag im Dictionary.
@@ -128,7 +128,7 @@ print('\nDanke das du mit unserem Programm gearbeitet hast.\n\n' +
 
 # Timer beim Beenden des Programmes.
 # Text ist standardisiert, die Countdown-Zeile überschreibt sich nach jeder Iteration.
-for i in range(1, 6):
+for i in range(0, 5):
     print('\tDieses Programm wird geschlossen in 00:0' + str(5 - i) + ' Sekunden!', end=('\r'))
     time.sleep(1)
 
@@ -138,16 +138,16 @@ for i in range(1, 6):
 import random
 
 easteregg = (
-'\tHasta la Vista Baby!                                               ',
-'\tI will be back!                                                    ',
-'\tHere comes the Boom!                                               ',
-'\tSee you later Aligator!                                            ',
-'\tWe will never be Slaves!                                           ',
-'\tNobody is Perfect!                                                 ',
-'\tGood Evening, Vietnam!                                             ',
+'\tHasta la Vista Baby!                                                           ',
+'\tI will be back!                                                                ',
+'\tHere comes the Boom!                                                           ',
+'\tSee you later Aligator!                                                        ',
+'\tWe will never be Slaves!                                                       ',
+'\tNobody is Perfect!                                                             ',
+'\tGood Evening, Vietnam!                                                         ',
 '\tWenn du denkst du hast einen Dummen vor dir, bist du an der rirchtigen Adresse!',
-'\tWir lassen Bier und Würstchen entscheiden!                         ',
+'\tWir lassen Bier und Würstchen entscheiden!                                     ',
 )
 
-r = random.randint(0, 9)
+r = random.randint(0, 8)
 print(easteregg[r])
