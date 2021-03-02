@@ -32,8 +32,8 @@
 from Gültig import gueltig_dr
 from Winkel import winkel_gamma
 from Seitenauswertung import seiten_auswertung as seau
-from time import sleep
-from random import randint
+import time
+import random
 
 # Variabel, unveränderbare Listen (Tupel)
 # Dient der Auswertung des Winkel.
