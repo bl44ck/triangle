@@ -11,9 +11,9 @@ def triangleType(a,b,c):
         str; String of the category
     """
 
-    if a == b and b == c:
+    if a == b == c:
         return "equilateral"
-    elif a == b or a == c or b ==c:
+    elif a != b != c:
         return "unequal sided"
     else:
         return "isosceled"
