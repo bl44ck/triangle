@@ -1,3 +1,8 @@
+# Authoren: S. Camathias
+#           O. Eggenberger
+#           F. Fortin
+#           E. Shatri
+
 #import
 from angle import angle
 from isTriangle import isTriangle
@@ -20,7 +25,7 @@ def output():
         print(f"This is a valid, {angle_output} and {type_output} triangle!")
     else:
         print("This is no valid triangle, please check your inputs!")
-        
+
 
 def endProgram(waitTime):
     """Ends the program with a feedback.
@@ -47,7 +52,7 @@ while True:
 
 #input
     try:
-        
+
         a = int(input('Side a:\n'))
         if a == 0:
             endProgram(1)
@@ -66,5 +71,5 @@ while True:
 
 #output
     output()
-    
+
     continue
