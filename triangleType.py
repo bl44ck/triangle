@@ -13,7 +13,6 @@ def triangleType(a,b,c):
 
     if a == b == c:
         return "equilateral"
-    
     elif a != b != c:
         return "unequal sided"
     else:
